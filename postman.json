@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "93f8e37d-aebb-43ea-9bc5-0d6ecddb2e28",
+		"name": "Otavio",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Criar usuário",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"nome\": \"teste\", \"email\": \"teste-otavio\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar usuários",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/usuarios",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"usuarios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar leilão",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"teste-otavio\", \"produto\": \"teste\", \"preco\": 14.0, \"datalimite\": \"2018-12-30\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/leiloes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leiloes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar leilões",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/leiloes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"leiloes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar lance",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"email\": \"teste-otavio\", \"leilaoId\": 1, \"valor\": 14.0}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/lances",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"lances"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar lances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/lances",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"lances"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
