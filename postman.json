@@ -32,24 +32,7 @@
 			},
 			"response": []
 		},
-		{
-			"name": "Listar usuários",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:3000/usuarios",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"usuarios"
-					]
-				}
-			},
-			"response": []
-		},
+
 		{
 			"name": "Criar leilão",
 			"request": {
@@ -77,24 +60,7 @@
 			},
 			"response": []
 		},
-		{
-			"name": "Listar leilões",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "localhost:3000/leiloes",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"leiloes"
-					]
-				}
-			},
-			"response": []
-		},
+
 		{
 			"name": "Criar lance",
 			"request": {
@@ -109,24 +75,6 @@
 						}
 					}
 				},
-				"url": {
-					"raw": "localhost:3000/lances",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"lances"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Listar lances",
-			"request": {
-				"method": "GET",
-				"header": [],
 				"url": {
 					"raw": "localhost:3000/lances",
 					"host": [
